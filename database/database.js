@@ -7,3 +7,5 @@ const sequelize = new Sequelize('practice', 'root', 'Spandan@007', {
 });
 
 export default sequelize;
+export const define = sequelize.define;
+
